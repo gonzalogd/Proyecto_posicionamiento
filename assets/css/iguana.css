@@ -1,0 +1,130 @@
+/* selector general */
+*{
+    font-family: 'Raleway', sans-serif;
+    color:#ffffff;
+    margin: 0px;
+}
+
+
+body{
+    background: #000000;
+}
+
+/* cabecera de pagina */
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.img_header{
+    background-image: url("../img/bg-header.jpg");
+    height: 47rem;
+    background-size: cover;
+    background-position: center center;
+    padding: 10rem;
+    left: 0px;
+}
+
+/* section principal */
+/* <!-- texto con imagen de iguana --> */
+
+.tex_img_iguana{
+    display: flex;
+    padding: 20px  150px;
+}
+
+.text_img_iguana img{
+     padding-left: 10px 150px;
+}
+
+.tex_img_iguana img:hover{
+    opacity: 55%;
+}
+
+.texto_iguana{
+    padding-top: 50px;
+}
+
+.texto_iguana p {
+    text-align: justify;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+/* caracteristicas con iconos */
+.carcacteristicas{
+    background: #1E1A13;
+    text-align: center;
+    padding: 40px;
+    border: 6px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.iconos_caracteris{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 50px 150px;
+
+}
+
+.carcacteristicas h1 {
+
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.iconos{
+    font-size: 60px;
+
+}
+
+ .iconos i:hover{
+    color:green;
+}
+
+.iconos p{
+    font-size: 27px;
+    font-weight: 200;
+}
+
+/* <!-- imagenes de iguanas --> */
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.imagenes img{
+    width: 316px;
+    height: 202px;
+    margin: 10px;
+}
+
+/* footer */
+
+footer{
+    background: #1E1A13;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px; 
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: aquamarine;
+}
